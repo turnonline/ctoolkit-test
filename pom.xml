@@ -44,6 +44,18 @@
         </developer>
     </developers>
 
+    <build>
+        <plugins>
+            <plugin>
+                <artifactId>maven-release-plugin</artifactId>
+                <configuration>
+                    <!-- Include site generation and deployment into release -->
+                    <goals>deploy site site-deploy</goals>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
