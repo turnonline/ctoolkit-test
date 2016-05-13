@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <parent>
         <groupId>org.ctoolkit.maven</groupId>
@@ -11,7 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.ctoolkit.test</groupId>
     <artifactId>ctoolkit-test</artifactId>
-    <version>1.2-SNAPSHOT</version>
+    <version>1.2</version>
     <packaging>jar</packaging>
     <name>CtoolkiT Unit and Integration Test Tools</name>
     <description>CtoolkiT Unit and Integration Test Tools for Google AppEngine with Guice support</description>
@@ -21,7 +20,7 @@
         <connection>scm:git:[fetch=]git@github.com:turnonline/ctoolkit-test.git</connection>
         <developerConnection>scm:git:[push=]git@github.com:turnonline/ctoolkit-test.git</developerConnection>
         <url>https://github.com/turnonline/ctoolkit-test</url>
-        <tag>HEAD</tag>
+        <tag>ctoolkit-test-1.2</tag>
     </scm>
 
     <issueManagement>
