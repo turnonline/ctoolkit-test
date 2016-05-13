@@ -10,7 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.ctoolkit.test</groupId>
     <artifactId>ctoolkit-test</artifactId>
-    <version>1.1</version>
+    <version>1.2-SNAPSHOT</version>
     <packaging>jar</packaging>
     <name>CtoolkiT Unit and Integration Test Tools</name>
     <description>CtoolkiT Unit and Integration Test Tools for Google AppEngine with Guice support</description>
@@ -20,7 +20,7 @@
         <connection>scm:git:[fetch=]git@github.com:turnonline/ctoolkit-test.git</connection>
         <developerConnection>scm:git:[push=]git@github.com:turnonline/ctoolkit-test.git</developerConnection>
         <url>https://github.com/turnonline/ctoolkit-test</url>
-        <tag>ctoolkit-test-1.1</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <issueManagement>
